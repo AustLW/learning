@@ -32,8 +32,8 @@ class VetPatient(Patient):
         )
         self.owner = owner
 
-    def print_patient_info(self):
-        print(f'Nori is owned by {self.owner}')
+    # def print_patient_info(self):
+    #     print(f'Nori is owned by {self.owner}')
 
 Nori = VetPatient(
     first_name='Nori',
